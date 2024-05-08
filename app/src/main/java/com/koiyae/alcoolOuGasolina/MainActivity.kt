@@ -41,7 +41,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             PrecosTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    // Chamando sua função app diretamente dentro do Surface
                     app(modifier = Modifier.padding(innerPadding))
                 }
             }
